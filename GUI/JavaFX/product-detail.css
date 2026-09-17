@@ -1,0 +1,94 @@
+.product-detail-root {
+    -fx-background-color: #f4f6f9;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.detail-header {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #e5e7eb transparent;
+}
+
+.detail-eyebrow {
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #64748b;
+}
+
+.detail-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #172033;
+}
+
+.detail-subtitle {
+    -fx-font-size: 13px;
+    -fx-text-fill: #64748b;
+}
+
+.product-detail-scroll,
+.product-detail-scroll > .viewport {
+    -fx-background-color: transparent;
+}
+
+.detail-card {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #e5e7eb;
+    -fx-padding: 15px;
+}
+
+.detail-section-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f2937;
+}
+
+.detail-info-grid {
+    -fx-padding: 4px 2px 2px 2px;
+}
+
+.detail-field-label {
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #6b7280;
+}
+
+.detail-field-value {
+    -fx-font-size: 14px;
+    -fx-text-fill: #111827;
+}
+
+.detail-image-holder {
+    -fx-background-color: #f8fafc;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-border-color: #e5e7eb;
+    -fx-padding: 8px;
+}
+
+.detail-image-message {
+    -fx-font-size: 14px;
+    -fx-text-fill: #94a3b8;
+}
+
+.detail-image-index {
+    -fx-font-weight: bold;
+    -fx-min-width: 54px;
+    -fx-alignment: center;
+}
+
+.detail-serial-table {
+    -fx-background-color: transparent;
+}
+
+.detail-promotion-text {
+    -fx-font-size: 13px;
+    -fx-text-fill: #374151;
+    -fx-padding: 4px 2px 4px 2px;
+}
+
+.detail-footer {
+    -fx-background-color: white;
+    -fx-border-color: #e5e7eb transparent transparent transparent;
+}

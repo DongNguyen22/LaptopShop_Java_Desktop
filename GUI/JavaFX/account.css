@@ -1,0 +1,217 @@
+.account-root {
+    -fx-background-color: #F4F7FB;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.account-header {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #E5EAF1 transparent;
+    -fx-border-width: 0 0 1 0;
+}
+
+.account-eyebrow {
+    -fx-text-fill: #7257A8;
+    -fx-font-size: 10px;
+    -fx-font-weight: 800;
+}
+
+.account-title {
+    -fx-text-fill: #28384B;
+    -fx-font-size: 24px;
+    -fx-font-weight: 800;
+}
+
+.account-subtitle {
+    -fx-text-fill: #758497;
+    -fx-font-size: 12px;
+}
+
+.account-count {
+    -fx-background-color: #F1ECF9;
+    -fx-background-radius: 999px;
+    -fx-padding: 8 13 8 13;
+    -fx-text-fill: #65508E;
+    -fx-font-size: 11px;
+    -fx-font-weight: 700;
+}
+
+.account-toolbar,
+.account-table-card {
+    -fx-background-color: white;
+    -fx-background-radius: 12px;
+    -fx-border-color: #E1E7EE;
+    -fx-border-radius: 12px;
+    -fx-border-width: 1px;
+}
+
+.account-table-card {
+    -fx-padding: 2px;
+    -fx-effect: dropshadow(gaussian, rgba(36, 58, 82, 0.06), 14, 0.12, 0, 3);
+}
+
+.toolbar-label,
+.dialog-field-label {
+    -fx-text-fill: #4E6174;
+    -fx-font-size: 12px;
+    -fx-font-weight: 700;
+}
+
+.account-search-field,
+.account-edit-dialog .text-field,
+.account-edit-dialog .password-field,
+.account-edit-dialog .combo-box {
+    -fx-background-color: #F8FAFC;
+    -fx-background-radius: 8px;
+    -fx-border-color: #D9E1EA;
+    -fx-border-radius: 8px;
+    -fx-border-width: 1px;
+    -fx-padding: 8 10 8 10;
+    -fx-font-size: 12px;
+}
+
+.account-search-field:focused,
+.account-edit-dialog .text-field:focused,
+.account-edit-dialog .password-field:focused,
+.account-edit-dialog .combo-box:focused {
+    -fx-background-color: white;
+    -fx-border-color: #7257A8;
+}
+
+.account-edit-dialog .readonly-field {
+    -fx-background-color: #EEF1F5;
+    -fx-text-fill: #657282;
+}
+
+.account-edit-dialog .invalid-field {
+    -fx-border-color: #D9534F;
+    -fx-border-width: 1.5px;
+}
+
+.account-button {
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-padding: 9 15 9 15;
+    -fx-font-size: 12px;
+    -fx-font-weight: 700;
+    -fx-cursor: hand;
+}
+
+.primary-button,
+.dialog-save-button {
+    -fx-background-color: #5E73B8;
+    -fx-text-fill: white;
+}
+
+.primary-button:hover,
+.dialog-save-button:hover {
+    -fx-background-color: #4E62A2;
+}
+
+.success-button {
+    -fx-background-color: #2F9D68;
+    -fx-text-fill: white;
+}
+
+.success-button:hover {
+    -fx-background-color: #27885A;
+}
+
+.danger-button {
+    -fx-background-color: #D9534F;
+    -fx-text-fill: white;
+}
+
+.danger-button:hover {
+    -fx-background-color: #C64541;
+}
+
+.secondary-button {
+    -fx-background-color: #F5F8FB;
+    -fx-border-color: #D7E0E9;
+    -fx-border-width: 1px;
+    -fx-text-fill: #43586C;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #EAF1F7;
+}
+
+.account-button:disabled {
+    -fx-opacity: 0.55;
+}
+
+.account-table {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-border-color: transparent;
+    -fx-padding: 0;
+}
+
+.account-table .column-header-background {
+    -fx-background-color: #3D5068;
+    -fx-background-radius: 9px 9px 0 0;
+}
+
+.account-table .column-header,
+.account-table .filler {
+    -fx-background-color: transparent;
+    -fx-size: 42px;
+    -fx-border-color: transparent;
+}
+
+.account-table .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-weight: 800;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 0 8 0 8;
+}
+
+.account-table .table-row-cell {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #EDF1F5 transparent;
+    -fx-border-width: 0 0 1 0;
+    -fx-cell-size: 39px;
+}
+
+.account-table .table-row-cell:odd {
+    -fx-background-color: #FBFCFD;
+}
+
+.account-table .table-row-cell:hover {
+    -fx-background-color: #F3F0FA;
+}
+
+.account-table .table-row-cell:selected {
+    -fx-background-color: #E5DDF3;
+}
+
+.account-table .table-cell {
+    -fx-border-color: transparent;
+    -fx-text-fill: #33485C;
+    -fx-font-size: 12px;
+    -fx-padding: 0 8 0 8;
+}
+
+.account-table .table-row-cell:selected .table-cell {
+    -fx-text-fill: #4B3D6B;
+}
+
+.account-edit-dialog {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.account-edit-dialog .header-panel {
+    -fx-background-color: #F5F2FA;
+}
+
+.account-edit-dialog .header-panel .label {
+    -fx-text-fill: #3D3650;
+    -fx-font-size: 15px;
+    -fx-font-weight: 800;
+}
+
+.account-edit-dialog .check-box {
+    -fx-text-fill: #526478;
+    -fx-font-size: 11px;
+}

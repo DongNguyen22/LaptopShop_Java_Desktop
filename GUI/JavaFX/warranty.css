@@ -1,0 +1,219 @@
+.warranty-root,
+.warranty-dialog-root {
+    -fx-background-color: #f5f7fb;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.warranty-eyebrow {
+    -fx-text-fill: #64748b;
+    -fx-font-size: 11px;
+    -fx-font-weight: 700;
+}
+
+.warranty-title {
+    -fx-text-fill: #172033;
+    -fx-font-size: 28px;
+    -fx-font-weight: 800;
+}
+
+.warranty-dialog-title {
+    -fx-text-fill: #172033;
+    -fx-font-size: 22px;
+    -fx-font-weight: 800;
+}
+
+.warranty-subtitle {
+    -fx-text-fill: #6b7280;
+    -fx-font-size: 13px;
+}
+
+.warranty-filter-card,
+.warranty-card,
+.warranty-stat-card,
+.warranty-detail-header {
+    -fx-background-color: white;
+    -fx-background-radius: 12px;
+    -fx-border-color: #e5e9f2;
+    -fx-border-radius: 12px;
+}
+
+.warranty-detail-header {
+    -fx-background-color: #34495e;
+    -fx-border-color: #34495e;
+}
+
+.warranty-detail-header .warranty-dialog-title {
+    -fx-text-fill: white;
+}
+
+.warranty-stat-caption {
+    -fx-text-fill: #657084;
+    -fx-font-size: 11px;
+    -fx-font-weight: 700;
+}
+
+.warranty-stat-value {
+    -fx-text-fill: #172033;
+    -fx-font-size: 20px;
+    -fx-font-weight: 800;
+}
+
+.warranty-record-label {
+    -fx-text-fill: #7a8496;
+    -fx-font-size: 11px;
+}
+
+.warranty-section-title {
+    -fx-text-fill: #25364d;
+    -fx-font-size: 14px;
+    -fx-font-weight: 800;
+}
+
+.warranty-info-key {
+    -fx-text-fill: #5f6b7c;
+    -fx-font-weight: 700;
+}
+
+.warranty-info-value {
+    -fx-text-fill: #172033;
+}
+
+.warranty-remaining {
+    -fx-text-fill: #dc2626;
+    -fx-font-weight: 800;
+}
+
+.warranty-button {
+    -fx-cursor: hand;
+    -fx-font-weight: 700;
+    -fx-font-size: 12px;
+    -fx-padding: 8px 13px;
+    -fx-background-radius: 7px;
+    -fx-border-radius: 7px;
+}
+
+.primary-button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+}
+.primary-button:hover { -fx-background-color: #1d4ed8; }
+
+.success-button {
+    -fx-background-color: #059669;
+    -fx-text-fill: white;
+}
+.success-button:hover { -fx-background-color: #047857; }
+
+.secondary-button {
+    -fx-background-color: white;
+    -fx-text-fill: #334155;
+    -fx-border-color: #d7dce6;
+}
+.secondary-button:hover { -fx-background-color: #f2f5fa; }
+
+.warranty-table {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.warranty-table .column-header-background {
+    -fx-background-color: #f3f6fa;
+}
+
+.warranty-table .column-header,
+.warranty-table .filler {
+    -fx-background-color: transparent;
+    -fx-size: 40px;
+}
+
+.warranty-table .column-header .label {
+    -fx-text-fill: #4a5568;
+    -fx-font-weight: 700;
+}
+
+.warranty-table .table-row-cell {
+    -fx-cell-size: 42px;
+    -fx-border-color: transparent transparent #eef1f5 transparent;
+}
+
+.warranty-table .table-row-cell:selected {
+    -fx-background-color: #e8f0fe;
+    -fx-text-background-color: #172033;
+}
+
+.warranty-row-disabled {
+    -fx-opacity: 0.52;
+    -fx-background-color: #f8fafc;
+}
+
+.warranty-page-label {
+    -fx-text-fill: #334155;
+    -fx-font-weight: 700;
+}
+
+.warranty-status-badge {
+    -fx-padding: 5px 10px;
+    -fx-background-radius: 999px;
+    -fx-font-weight: 800;
+}
+
+.status-received {
+    -fx-background-color: #dbeafe;
+    -fx-text-fill: #1d4ed8;
+    -fx-font-weight: 700;
+}
+
+.status-rejected {
+    -fx-background-color: #fee2e2;
+    -fx-text-fill: #b91c1c;
+    -fx-font-weight: 700;
+}
+
+.status-processing {
+    -fx-background-color: #fef3c7;
+    -fx-text-fill: #92400e;
+    -fx-font-weight: 700;
+}
+
+.status-completed {
+    -fx-background-color: #dcfce7;
+    -fx-text-fill: #166534;
+    -fx-font-weight: 700;
+}
+
+.warranty-scroll {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+    -fx-border-color: transparent;
+}
+
+.text-field,
+.combo-box,
+.date-picker,
+.text-area {
+    -fx-background-color: white;
+    -fx-border-color: #d8dee9;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+}
+
+.text-area .content {
+    -fx-background-color: white;
+    -fx-background-radius: 6px;
+}
+
+.check-box .box {
+    -fx-background-color: white;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #2563eb;
+    -fx-border-color: #2563eb;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: white;
+}

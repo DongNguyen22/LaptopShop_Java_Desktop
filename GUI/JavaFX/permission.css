@@ -1,0 +1,256 @@
+.permission-root,
+.role-dialog-root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-background-color: #F5F7FA;
+}
+
+.permission-header,
+.role-dialog-header {
+    -fx-background-color: linear-gradient(to right, #FFFFFF, #F6F2FB);
+    -fx-border-color: transparent transparent #E3E8EE transparent;
+    -fx-border-width: 0 0 1 0;
+}
+
+.permission-eyebrow,
+.dialog-eyebrow {
+    -fx-text-fill: #8067A8;
+    -fx-font-size: 10px;
+    -fx-font-weight: 800;
+}
+
+.permission-title,
+.dialog-title {
+    -fx-text-fill: #28384B;
+    -fx-font-size: 24px;
+    -fx-font-weight: 800;
+}
+
+.dialog-title {
+    -fx-font-size: 20px;
+}
+
+.permission-subtitle,
+.dialog-subtitle {
+    -fx-text-fill: #758497;
+    -fx-font-size: 12px;
+}
+
+.permission-count {
+    -fx-background-color: #F1ECF9;
+    -fx-background-radius: 999px;
+    -fx-padding: 8 13 8 13;
+    -fx-text-fill: #65508E;
+    -fx-font-size: 11px;
+    -fx-font-weight: 700;
+}
+
+.permission-toolbar,
+.permission-table-card,
+.role-name-row,
+.permission-matrix-card {
+    -fx-background-color: white;
+    -fx-background-radius: 12px;
+    -fx-border-color: #E1E7EE;
+    -fx-border-radius: 12px;
+    -fx-border-width: 1px;
+}
+
+.permission-table-card,
+.permission-matrix-card {
+    -fx-effect: dropshadow(gaussian, rgba(36, 58, 82, 0.06), 14, 0.12, 0, 3);
+}
+
+.permission-table-card {
+    -fx-padding: 2px;
+}
+
+.toolbar-label,
+.dialog-field-label {
+    -fx-text-fill: #4E6174;
+    -fx-font-size: 12px;
+    -fx-font-weight: 700;
+}
+
+.permission-search-field,
+.role-name-field {
+    -fx-background-color: #F8FAFC;
+    -fx-background-radius: 8px;
+    -fx-border-color: #D9E1EA;
+    -fx-border-radius: 8px;
+    -fx-border-width: 1px;
+    -fx-padding: 8 10 8 10;
+    -fx-font-size: 12px;
+}
+
+.permission-search-field:focused,
+.role-name-field:focused {
+    -fx-background-color: white;
+    -fx-border-color: #7257A8;
+}
+
+.readonly-field {
+    -fx-background-color: #EEF1F5;
+    -fx-text-fill: #657282;
+}
+
+.invalid-field {
+    -fx-border-color: #D9534F;
+    -fx-border-width: 1.5px;
+}
+
+.permission-button {
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-padding: 9 15 9 15;
+    -fx-font-size: 12px;
+    -fx-font-weight: 700;
+    -fx-cursor: hand;
+}
+
+.primary-button {
+    -fx-background-color: #5E73B8;
+    -fx-text-fill: white;
+}
+
+.primary-button:hover {
+    -fx-background-color: #4E62A2;
+}
+
+.success-button {
+    -fx-background-color: #2F9D68;
+    -fx-text-fill: white;
+}
+
+.success-button:hover {
+    -fx-background-color: #27885A;
+}
+
+.danger-button {
+    -fx-background-color: #D9534F;
+    -fx-text-fill: white;
+}
+
+.danger-button:hover {
+    -fx-background-color: #C64541;
+}
+
+.secondary-button {
+    -fx-background-color: #F5F8FB;
+    -fx-border-color: #D7E0E9;
+    -fx-border-width: 1px;
+    -fx-text-fill: #43586C;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #EAF1F7;
+}
+
+.permission-button:disabled {
+    -fx-opacity: 0.55;
+}
+
+.permission-table,
+.permission-matrix-table {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-border-color: transparent;
+    -fx-padding: 0;
+}
+
+.permission-table .column-header-background,
+.permission-matrix-table .column-header-background {
+    -fx-background-color: #3D5068;
+    -fx-background-radius: 9px 9px 0 0;
+}
+
+.permission-table .column-header,
+.permission-table .filler,
+.permission-matrix-table .column-header,
+.permission-matrix-table .filler {
+    -fx-background-color: transparent;
+    -fx-size: 42px;
+    -fx-border-color: transparent;
+}
+
+.permission-table .column-header .label,
+.permission-matrix-table .column-header .label,
+.clickable-column-header {
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-weight: 800;
+    -fx-alignment: CENTER;
+}
+
+.clickable-column-header {
+    -fx-cursor: hand;
+    -fx-padding: 7 8 7 8;
+}
+
+.permission-table .table-row-cell,
+.permission-matrix-table .table-row-cell {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #EDF1F5 transparent;
+    -fx-border-width: 0 0 1 0;
+    -fx-cell-size: 39px;
+}
+
+.permission-table .table-row-cell:odd,
+.permission-matrix-table .table-row-cell:odd {
+    -fx-background-color: #FBFCFD;
+}
+
+.permission-table .table-row-cell:hover,
+.permission-matrix-table .table-row-cell:hover {
+    -fx-background-color: #F3F0FA;
+}
+
+.permission-table .table-row-cell:selected,
+.permission-matrix-table .table-row-cell:selected {
+    -fx-background-color: #E5DDF3;
+}
+
+.permission-table .table-cell,
+.permission-matrix-table .table-cell {
+    -fx-border-color: transparent;
+    -fx-text-fill: #33485C;
+    -fx-font-size: 12px;
+    -fx-padding: 0 8 0 8;
+}
+
+.permission-table .table-row-cell:selected .table-cell,
+.permission-matrix-table .table-row-cell:selected .table-cell {
+    -fx-text-fill: #4B3D6B;
+}
+
+.permission-matrix-table .check-box .box {
+    -fx-background-color: white;
+    -fx-border-color: #B9C5D2;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+}
+
+.permission-matrix-table .check-box:selected .box {
+    -fx-background-color: #5E73B8;
+    -fx-border-color: #5E73B8;
+}
+
+.permission-matrix-table .check-box:selected .mark {
+    -fx-background-color: white;
+}
+
+.permission-hint {
+    -fx-text-fill: #526478;
+    -fx-font-size: 12px;
+    -fx-font-weight: 700;
+}
+
+.permission-shortcut {
+    -fx-text-fill: #8793A1;
+    -fx-font-size: 11px;
+}
+
+.role-dialog-footer {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #E3E8EE transparent transparent transparent;
+    -fx-border-width: 1 0 0 0;
+}

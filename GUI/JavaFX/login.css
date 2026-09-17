@@ -1,0 +1,112 @@
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.login-root {
+    -fx-background-color: #f4f7fb;
+}
+
+.login-form {
+    -fx-background-color: white;
+    -fx-border-color: #e8edf3;
+    -fx-border-width: 0 1 0 0;
+}
+
+.login-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #243447;
+}
+
+.login-subtitle {
+    -fx-font-size: 13px;
+    -fx-text-fill: #7b8794;
+}
+
+.field-label {
+    -fx-font-size: 13px;
+    -fx-font-weight: 600;
+    -fx-text-fill: #354052;
+}
+
+.input-field {
+    -fx-pref-height: 44px;
+    -fx-background-color: #f9fbfd;
+    -fx-border-color: #d8e0e8;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 0 12px;
+    -fx-font-size: 14px;
+}
+
+.input-field:focused {
+    -fx-background-color: white;
+    -fx-border-color: #4f7cff;
+    -fx-effect: dropshadow(gaussian, rgba(79,124,255,0.16), 8, 0.15, 0, 1);
+}
+
+.input-field.input-error {
+    -fx-border-color: #e74c3c;
+}
+
+.password-row {
+    -fx-spacing: 6px;
+}
+
+.eye-button {
+    -fx-pref-width: 44px;
+    -fx-pref-height: 44px;
+    -fx-background-color: #eef3f8;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+}
+
+.eye-button:hover {
+    -fx-background-color: #e2eaf2;
+}
+
+.remember-check {
+    -fx-font-size: 12px;
+    -fx-text-fill: #556270;
+}
+
+.error-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #d93025;
+    -fx-min-height: 20px;
+}
+
+.login-button {
+    -fx-pref-height: 46px;
+    -fx-background-color: #2f6fed;
+    -fx-background-radius: 9px;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: 700;
+    -fx-cursor: hand;
+}
+
+.login-button:hover {
+    -fx-background-color: #285fcb;
+}
+
+.login-button:pressed {
+    -fx-background-color: #214fa9;
+}
+
+.image-pane {
+    -fx-background-color: #25364a;
+}
+
+.image-brand {
+    -fx-font-size: 26px;
+    -fx-font-weight: 800;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.55), 6, 0.25, 0, 1);
+}
+
+.image-caption {
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.55), 5, 0.25, 0, 1);
+}

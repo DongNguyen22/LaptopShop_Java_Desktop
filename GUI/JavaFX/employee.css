@@ -1,0 +1,227 @@
+.employee-root {
+    -fx-background-color: #F4F7FB;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.employee-header {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #E5EAF1 transparent;
+    -fx-border-width: 0 0 1 0;
+}
+
+.employee-eyebrow {
+    -fx-text-fill: #2E6FA7;
+    -fx-font-size: 10px;
+    -fx-font-weight: 800;
+}
+
+.employee-title {
+    -fx-text-fill: #25364A;
+    -fx-font-size: 24px;
+    -fx-font-weight: 800;
+}
+
+.employee-subtitle {
+    -fx-text-fill: #758497;
+    -fx-font-size: 12px;
+}
+
+.employee-count {
+    -fx-background-color: #EDF4FA;
+    -fx-background-radius: 999px;
+    -fx-padding: 8 13 8 13;
+    -fx-text-fill: #416C91;
+    -fx-font-size: 11px;
+    -fx-font-weight: 700;
+}
+
+.employee-toolbar,
+.employee-table-card {
+    -fx-background-color: white;
+    -fx-background-radius: 12px;
+    -fx-border-color: #E1E7EE;
+    -fx-border-radius: 12px;
+    -fx-border-width: 1px;
+}
+
+.employee-table-card {
+    -fx-padding: 2px;
+    -fx-effect: dropshadow(gaussian, rgba(36, 58, 82, 0.06), 14, 0.12, 0, 3);
+}
+
+.toolbar-label {
+    -fx-text-fill: #46596D;
+    -fx-font-size: 12px;
+    -fx-font-weight: 700;
+}
+
+.employee-search-field,
+.employee-edit-dialog .text-field,
+.employee-edit-dialog .combo-box {
+    -fx-background-color: #F8FAFC;
+    -fx-background-radius: 8px;
+    -fx-border-color: #D9E1EA;
+    -fx-border-radius: 8px;
+    -fx-border-width: 1px;
+    -fx-padding: 8 10 8 10;
+    -fx-font-size: 12px;
+}
+
+.employee-search-field:focused,
+.employee-edit-dialog .text-field:focused,
+.employee-edit-dialog .combo-box:focused {
+    -fx-background-color: white;
+    -fx-border-color: #4A8CC4;
+}
+
+.employee-edit-dialog .invalid-field {
+    -fx-border-color: #D9534F;
+    -fx-border-width: 1.5px;
+}
+
+.employee-button {
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-padding: 9 15 9 15;
+    -fx-font-size: 12px;
+    -fx-font-weight: 700;
+    -fx-cursor: hand;
+}
+
+.primary-button,
+.dialog-save-button {
+    -fx-background-color: #2F78B5;
+    -fx-text-fill: white;
+}
+
+.primary-button:hover,
+.dialog-save-button:hover {
+    -fx-background-color: #28699F;
+}
+
+.success-button {
+    -fx-background-color: #2F9D68;
+    -fx-text-fill: white;
+}
+
+.success-button:hover {
+    -fx-background-color: #27885A;
+}
+
+.danger-button {
+    -fx-background-color: #D9534F;
+    -fx-text-fill: white;
+}
+
+.danger-button:hover {
+    -fx-background-color: #C64541;
+}
+
+.secondary-button {
+    -fx-background-color: #F5F8FB;
+    -fx-border-color: #D7E0E9;
+    -fx-border-width: 1px;
+    -fx-text-fill: #43586C;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #EAF1F7;
+}
+
+.employee-button:disabled {
+    -fx-opacity: 0.55;
+}
+
+.employee-table {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-border-color: transparent;
+    -fx-padding: 0;
+}
+
+.employee-table .column-header-background {
+    -fx-background-color: #344F68;
+    -fx-background-radius: 9px 9px 0 0;
+}
+
+.employee-table .column-header,
+.employee-table .filler {
+    -fx-background-color: transparent;
+    -fx-size: 42px;
+    -fx-border-color: transparent;
+}
+
+.employee-table .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-weight: 800;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 0 8 0 8;
+}
+
+.employee-table .table-row-cell {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #EDF1F5 transparent;
+    -fx-border-width: 0 0 1 0;
+    -fx-cell-size: 39px;
+}
+
+.employee-table .table-row-cell:odd {
+    -fx-background-color: #FBFCFD;
+}
+
+.employee-table .table-row-cell:hover {
+    -fx-background-color: #F0F6FB;
+}
+
+.employee-table .table-row-cell:selected {
+    -fx-background-color: #DCECF8;
+}
+
+.employee-table .table-cell {
+    -fx-border-color: transparent;
+    -fx-text-fill: #33485C;
+    -fx-font-size: 12px;
+    -fx-padding: 0 8 0 8;
+}
+
+.employee-table .table-row-cell:selected .table-cell {
+    -fx-text-fill: #244D6E;
+}
+
+.employee-table .inactive-row,
+.employee-table .inactive-row:odd {
+    -fx-background-color: #F0F1F3;
+}
+
+.employee-table .inactive-row .table-cell {
+    -fx-text-fill: #929AA3;
+}
+
+.employee-table .inactive-row:selected {
+    -fx-background-color: #D9DEE3;
+}
+
+.employee-table .inactive-row:selected .table-cell {
+    -fx-text-fill: #4F5963;
+}
+
+.employee-edit-dialog {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.employee-edit-dialog .header-panel {
+    -fx-background-color: #F4F8FC;
+}
+
+.employee-edit-dialog .header-panel .label {
+    -fx-text-fill: #2C4359;
+    -fx-font-size: 15px;
+    -fx-font-weight: 800;
+}
+
+.dialog-field-label {
+    -fx-text-fill: #4E6174;
+    -fx-font-size: 12px;
+    -fx-font-weight: 700;
+}

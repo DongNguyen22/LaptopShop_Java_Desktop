@@ -1,0 +1,158 @@
+.promotion-root,
+.promotion-items-root {
+    -fx-background-color: #f4f6f8;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.promotion-header,
+.promotion-items-header {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #e7ebef transparent;
+}
+
+.promotion-eyebrow,
+.promotion-items-eyebrow {
+    -fx-font-size: 10px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #7a8793;
+}
+
+.promotion-title,
+.promotion-items-title {
+    -fx-font-size: 25px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #2f3b46;
+}
+
+.promotion-subtitle,
+.promotion-items-name,
+.promotion-items-hint {
+    -fx-font-size: 12px;
+    -fx-text-fill: #6e7b87;
+}
+
+.promotion-current-status {
+    -fx-font-size: 12px;
+    -fx-padding: 5 0 0 0;
+}
+
+.current-active { -fx-text-fill: #218c5a; }
+.current-empty { -fx-text-fill: #c94c4c; }
+
+.promotion-count,
+.promotion-items-count {
+    -fx-background-color: #eef3f7;
+    -fx-background-radius: 18;
+    -fx-padding: 7 12;
+    -fx-font-weight: 600;
+    -fx-text-fill: #435466;
+}
+
+.promotion-toolbar,
+.promotion-filterbar,
+.promotion-pagination,
+.promotion-table-card,
+.promotion-items-card {
+    -fx-background-color: white;
+    -fx-background-radius: 8;
+    -fx-border-color: #e2e7eb;
+    -fx-border-radius: 8;
+}
+
+.toolbar-label {
+    -fx-font-weight: 600;
+    -fx-text-fill: #475867;
+}
+
+.promotion-search-field,
+.promotion-filter-box,
+.promotion-date-picker,
+.promotion-edit-dialog .text-field,
+.promotion-edit-dialog .combo-box,
+.promotion-edit-dialog .date-picker,
+.promotion-item-edit-dialog .text-field,
+.promotion-item-edit-dialog .combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #cfd7de;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-pref-height: 34px;
+}
+
+.promotion-button {
+    -fx-background-radius: 5;
+    -fx-padding: 8 13;
+    -fx-font-weight: 600;
+    -fx-cursor: hand;
+}
+
+.primary-button { -fx-background-color: #3498db; -fx-text-fill: white; }
+.success-button { -fx-background-color: #2ecc71; -fx-text-fill: white; }
+.danger-button { -fx-background-color: #e74c3c; -fx-text-fill: white; }
+.secondary-button { -fx-background-color: #edf1f4; -fx-text-fill: #40515f; }
+
+.primary-button:hover { -fx-background-color: #2587c2; }
+.success-button:hover { -fx-background-color: #26b864; }
+.danger-button:hover { -fx-background-color: #d53d2e; }
+.secondary-button:hover { -fx-background-color: #dfe6eb; }
+
+.promotion-table,
+.promotion-items-table {
+    -fx-background-color: white;
+    -fx-border-color: transparent;
+}
+
+.promotion-table .column-header-background,
+.promotion-items-table .column-header-background {
+    -fx-background-color: #34495e;
+}
+
+.promotion-table .column-header,
+.promotion-table .filler,
+.promotion-items-table .column-header,
+.promotion-items-table .filler {
+    -fx-background-color: transparent;
+    -fx-size: 38px;
+}
+
+.promotion-table .column-header .label,
+.promotion-items-table .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: 700;
+}
+
+.promotion-table .table-row-cell,
+.promotion-items-table .table-row-cell {
+    -fx-cell-size: 36px;
+    -fx-border-color: transparent transparent #eef1f3 transparent;
+}
+
+.promotion-table .table-row-cell:selected,
+.promotion-items-table .table-row-cell:selected {
+    -fx-background-color: #dceffd;
+    -fx-table-cell-border-color: transparent;
+}
+
+.status-running { -fx-background-color: #e6f7ed; -fx-text-fill: #18864b; -fx-font-weight: 600; }
+.status-upcoming { -fx-background-color: #fff8d8; -fx-text-fill: #8c6a00; -fx-font-weight: 600; }
+.status-ended { -fx-background-color: #fdebea; -fx-text-fill: #a33c34; -fx-font-weight: 600; }
+.status-disabled { -fx-background-color: #eeeeee; -fx-text-fill: #777777; -fx-font-weight: 600; }
+
+.promotion-filter-status {
+    -fx-font-size: 11px;
+    -fx-font-style: italic;
+    -fx-text-fill: #7d5ca8;
+}
+
+.pagination-label { -fx-font-weight: 600; -fx-text-fill: #536472; }
+.pagination-muted { -fx-text-fill: #7c8a95; }
+
+.dialog-field-label {
+    -fx-font-weight: 600;
+    -fx-text-fill: #455562;
+}
+
+.promotion-checkbox-row { -fx-alignment: center-left; }
+.promotion-item-type-hint { -fx-text-fill: #71808c; -fx-font-style: italic; }
+.readonly-field { -fx-background-color: #f2f4f5; -fx-text-fill: #66747f; }
+.dialog-save-button { -fx-font-weight: 700; }

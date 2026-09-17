@@ -1,0 +1,146 @@
+.history-root {
+    -fx-background-color: #f5f7fb;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.history-eyebrow {
+    -fx-text-fill: #64748b;
+    -fx-font-size: 11px;
+    -fx-font-weight: 700;
+}
+
+.history-title {
+    -fx-text-fill: #172033;
+    -fx-font-size: 25px;
+    -fx-font-weight: 800;
+}
+
+.history-subtitle,
+.history-hint {
+    -fx-text-fill: #6b7280;
+    -fx-font-size: 12px;
+}
+
+.history-stat-card,
+.history-searchbar,
+.history-card {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 10px;
+}
+
+.history-stat-card {
+    -fx-border-width: 1px 1px 1px 5px;
+}
+
+.sale-stat { -fx-border-color: #e2e8f0 #e2e8f0 #e2e8f0 #10b981; }
+.purchase-stat { -fx-border-color: #e2e8f0 #e2e8f0 #e2e8f0 #3b82f6; }
+
+.history-stat-caption {
+    -fx-text-fill: #64748b;
+    -fx-font-size: 11px;
+    -fx-font-weight: 700;
+}
+
+.history-stat-value {
+    -fx-text-fill: #172033;
+    -fx-font-size: 20px;
+    -fx-font-weight: 800;
+}
+
+.history-searchbar {
+    -fx-padding: 10px 12px;
+}
+
+.history-card {
+    -fx-effect: dropshadow(gaussian, rgba(15, 23, 42, 0.05), 10, 0.1, 0, 3);
+}
+
+.history-field-label {
+    -fx-text-fill: #64748b;
+    -fx-font-weight: 700;
+}
+
+.history-result-label,
+.history-page-label {
+    -fx-text-fill: #64748b;
+    -fx-font-weight: 600;
+}
+
+.history-button {
+    -fx-cursor: hand;
+    -fx-background-radius: 7px;
+    -fx-padding: 7px 13px;
+    -fx-font-weight: 700;
+}
+
+.primary-button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+}
+.primary-button:hover { -fx-background-color: #1d4ed8; }
+
+.success-button {
+    -fx-background-color: #059669;
+    -fx-text-fill: white;
+}
+.success-button:hover { -fx-background-color: #047857; }
+
+.secondary-button {
+    -fx-background-color: #e8edf5;
+    -fx-text-fill: #334155;
+}
+.secondary-button:hover { -fx-background-color: #dce3ed; }
+
+.history-table,
+.table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #334155;
+    -fx-background-radius: 7px 7px 0 0;
+}
+
+.table-view .column-header,
+.table-view .filler {
+    -fx-background-color: transparent;
+    -fx-size: 38px;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: 700;
+}
+
+.table-view .table-row-cell {
+    -fx-cell-size: 39px;
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #eef2f7 transparent;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #dbeafe;
+    -fx-text-background-color: #172033;
+}
+
+.sale-row .table-cell { -fx-text-fill: #047857; }
+.purchase-row .table-cell { -fx-text-fill: #1d4ed8; }
+.capital-row .table-cell { -fx-text-fill: #475569; }
+
+.text-field,
+.date-picker,
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+}
+
+.text-field:focused,
+.date-picker:focused,
+.combo-box:focused {
+    -fx-border-color: #3b82f6;
+}
